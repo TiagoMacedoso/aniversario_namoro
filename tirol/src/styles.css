@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import './../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+  --roxo: #591A88;
+  --rosa: #F25CAF;
+  --azul_escuro: #048ABF;
+  --azul_calro: #04B2D9;
+  --verde: #B7D996;
+  --laranja: #F29F05;
+  --c0: #F7F7F7;
+  --c1: #E6E6E6;
+  --c2: #BFBFBF;
+  --c3: #808080;
+  --c4: #404040;
+  --black: #000000;
+}
+
+*{
+  user-select: none;
+  font-family: 'Mitr', sans-serif;
+}
