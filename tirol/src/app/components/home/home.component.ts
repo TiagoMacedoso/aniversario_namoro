@@ -39,7 +39,7 @@ export class HomeComponent {
       horas: horas(),
       minutos: minutos(),
       segundos: segundos(),
-      img: "background-image: url(./../../../assets/foto_slide.png)"
+      img: "background-image: url(./../../../assets/counter.png)"
     }
   ]
 }
