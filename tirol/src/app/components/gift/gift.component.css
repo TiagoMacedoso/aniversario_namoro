@@ -11,6 +11,10 @@ div section{
 }
 
 @media (max-width: 800px) {
+  .text-title{
+    width: 75% !important;
+  }
+
   h1{
     font-size: 2rem;
   }
