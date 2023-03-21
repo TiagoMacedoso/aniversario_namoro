@@ -1,1 +1,35 @@
-<p>home works!</p>
+<main>
+  <div id="myCarousel" class="carousel slide h-100" data-bs-ride="carousel">
+    <div class="carousel-inner h-100">
+      <div *ngFor="let i of slides" class="carousel-item w-100 h-100" [class]="i.active" [style]="i.img">
+        <div *ngIf="i.counter == false; else counter"
+          class="container-item w-100 h-100 d-flex justify-content-center align-items-center">
+          <div class="infos-container p-3 rounded-4">
+            <h1 class="fs-1 text-center">{{i.h1}}</h1>
+            <p class="fs-4 fst-italic">{{i.p}}</p>
+          </div>
+        </div>
+        <ng-template #counter>
+          <div class="container-item w-100 h-100 d-flex justify-content-center align-items-center">
+            <div class="counter-container p-3 rounded-4 d-flex flex-column justify-content-center align-items-center">
+              <h1>Foram <span>juntos:</span></h1>
+              <h2>{{i.dias}} dias;</h2>
+              <h2>{{i.horas}} horas;</h2>
+              <h2>{{i.minutos}} minutos;</h2>
+              <h2>{{i.segundos}} segundos;</h2>
+              <h1>e contando até o infinito...</h1>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-black p-4 p-md-5 rounded-5" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next d-flex" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-black p-4 p-md-5 rounded-5" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</main>
