@@ -1,1 +1,14 @@
-<p>gallery works!</p>
+<div class="container">
+  <main class="m-3 p-0 py-3 m-md-4 p-md-5 bg-light rounded-5">
+    <section *ngFor="let i of photos" class="d-flex justify-content-center align-items-center">
+      <div *ngIf="i.index == 0; else padding" class="row container-image d-flex justify-content-center">
+        <div *ngFor="let item of i.linha" class="col-3 mx-3 mt-0 {{item.color}} images" [style]="item.img"></div>
+      </div>
+      <ng-template #padding>
+        <div class="row container-image d-flex justify-content-center">
+          <div *ngFor="let item of i.linha" class="col-3 mx-3 mt-0 mt-md-3 {{item.color}} images" [style]="item.img"></div>
+        </div>
+      </ng-template>
+    </section>
+  </main>
+</div>

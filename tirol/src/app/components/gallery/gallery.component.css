@@ -1,0 +1,24 @@
+.rosa{
+  border: 10px solid var(--rosa);
+}
+
+.roxo{
+  border: 10px solid var(--roxo);
+}
+
+.images{
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 800px) {
+  .roxo{
+    border-color: var(--rosa);
+  }
+
+  .images:not(:nth-child(0)){
+    margin-top: 1.5rem !important;
+  }
+}
