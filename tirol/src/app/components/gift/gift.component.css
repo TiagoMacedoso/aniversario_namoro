@@ -1,0 +1,17 @@
+main{
+  height: calc(100vh - 100px);
+}
+
+h1{
+  font-size: 3rem;
+}
+
+div section{
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  h1{
+    font-size: 2rem;
+  }
+}

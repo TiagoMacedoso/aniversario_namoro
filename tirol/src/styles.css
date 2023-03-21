@@ -25,3 +25,27 @@
 body{
   background-color: var(--c1);
 }
+
+.bg-c0{
+  background-color: var(--c0);
+}
+
+.bg-azul-claro{
+  background-color: var(--azul_calro);
+}
+
+.text-laranja{
+  color: var(--laranja);
+}
+
+.text-verde{
+  color: var(--verde);
+}
+
+.text-rosa{
+  color: var(--rosa);
+}
+
+.text-roxo{
+  color: var(--roxo);
+}

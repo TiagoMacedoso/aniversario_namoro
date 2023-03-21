@@ -1,5 +1,5 @@
 <div class="container">
-  <main class="m-3 p-0 py-3 m-md-4 p-md-5 bg-light rounded-5">
+  <main class="m-3 p-0 py-3 m-md-4 p-md-5 bg-c0 rounded-5">
     <section *ngFor="let i of photos" class="d-flex justify-content-center align-items-center">
       <div *ngIf="i.index == 0; else padding" class="row container-image d-flex justify-content-center">
         <div *ngFor="let item of i.linha" class="col-3 mx-3 mt-0 {{item.color}} images" [style]="item.img"></div>

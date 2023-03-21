@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'gift-home',
-    loadChildren: () => import('./gift-home/gift-home.module').then(m => m.GiftHomeModule)
+    component: GiftComponent
   },
   {
     path: 'gift1',
