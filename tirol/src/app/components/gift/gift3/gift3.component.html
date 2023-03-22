@@ -1,1 +1,44 @@
-<p>gift3 works!</p>
+<main class="container-fluid px-0 px-md-5 bg-roxo d-flex justify-content-center align-items-center">
+  <div class="container bg-c0 p-5 rounded-5">
+
+    <section class="row">
+      <div class="col-2">
+        <img src="./../../../../assets/svg/back-gift.svg" routerLink="/gift/gift2">
+      </div>
+      <h1 class="col-8 text-center text-rosa">Se acertar terá que me provar ;)</h1>
+    </section>
+
+    <section class="bg-c2 p-4 rounded-5 d-flex justify-content-center align-items-center">
+      <div class="w-90 py-3 d-flex flex-column justify-content-center">
+
+        <h1 class="bg-c1 m-0 p-1 rounded-4 text-center text-azul-escuro">Até onde vai meu amor por você?</h1>
+
+        <div class="row mt-4">
+          <div class="col-6 d-flex align-items-center">
+            <div class="indicator"></div>
+            <p class="h-100 m-0 ms-3 d-flex align-items-center" id="alternative1" (click)="a1_click()">Jairo lanches?</p>
+          </div>
+          <div class="col-6 d-flex align-items-center">
+            <div class="indicator"></div>
+            <p class="h-100 m-0 ms-3 d-flex align-items-center" id="alternative2" (click)="a2_click()">Ao infinito e além?</p>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col-6 d-flex align-items-center">
+            <div class="indicator"></div>
+            <p class="h-100 m-0 ms-3 d-flex align-items-center" id="alternative3">Na Lenha Pizzaria?</p>
+          </div>
+          <div class="col-6 d-flex align-items-center">
+            <div class="indicator"></div>
+            <p class="h-100 m-0 ms-3 d-flex align-items-center" id="alternative4" (click)="a4_click()">GOAT?</p>
+          </div>
+        </div>
+
+        <h1 class="bg-c1 m-0 p-1 rounded-4 text-center text-roxo">Esse vai receber pessoalmente S2 </h1>
+
+      </div>
+    </section>
+
+  </div>
+</main>

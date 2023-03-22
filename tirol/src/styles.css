@@ -30,8 +30,28 @@ body{
   background-color: var(--c0);
 }
 
+.bg-c1{
+  background-color: var(--c1);
+}
+
+.bg-c2{
+  background-color: var(--c2);
+}
+
 .bg-azul-claro{
   background-color: var(--azul_calro);
+}
+
+.bg-verde{
+  background-color: var(--verde);
+}
+
+.bg-rosa{
+  background-color: var(--rosa);
+}
+
+.bg-roxo{
+  background-color: var(--roxo);
 }
 
 .text-laranja{
@@ -48,4 +68,8 @@ body{
 
 .text-roxo{
   color: var(--roxo);
+}
+
+.text-azul-escuro{
+  color: var(--azul_escuro);
 }

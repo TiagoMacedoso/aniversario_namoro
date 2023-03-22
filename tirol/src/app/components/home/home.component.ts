@@ -11,26 +11,26 @@ export class HomeComponent {
     {
       active: "active",
       counter: false,
-      h1: "A sua primeira fez com a minha família.",
-      p: "Eu nunca esqueço esse dia, e foi muito engraçado por ser a primeira vez que te vi com vergonha.",
+      h1: "A sua primeira vez com a minha família.",
+      p: "Nunca esqueço este dia, pois foi muito engraçado, porque foi a primeira vez que te vi com vergonha.",
       img: "background-image: url(./../../../assets/foto_primeira.jpg)"
     },
     {
       counter: false,
-      h1: "A nossa princesinha S2.",
-      p: "Eu sei que está difícil o que está acontecendo, tantas e tantas coisas mudaram, umas para melhor e outras para pior. Mas eu quero que você saiba que eu sempre vou estar aqui para tudo.",
+      h1: "Cecília, nossa princesinha S2.",
+      p:      "Eu sei que está difícil, tantas coisas acontecendo, algumas boas e outras nem tanto, mas você sabe que sempre vou estar ao seu lado.",
       img: "background-image: url(./../../../assets/cecilia.JPEG)"
     },
     {
       counter: false,
       h1: "Nós!",
-      p: "Eu te amo tanto, que eu nem sei como te explicar. Eu sou grato a Deus por ter te colocado em minha vida.",
+      p: "Eu te amo tanto, um amor imensuravél. Agradeço a Deus todos os dias por ter você em minha vida.",
       img: "background-image: url(./../../../assets/casamento_deitada.png)"
     },
     {
       counter: false,
       h1: "Você é incrível!",
-      p: "Quero que essa data se repita por muitos e muito logos anos. Você é muito incrível, nunca se esqueça disso e eu estou aqui para sempre S2.",
+      p: "Quero comemorar essa data com você por muitos anos até chegar o dia do nosso casamento. Você é uma namorada incrível! Nunca se esqueça disso. Te amo para sempre S2.",
       img: "background-image: url(./../../../assets/foto_slide.png)"
     },
     {
