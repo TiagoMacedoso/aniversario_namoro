@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./gift3.component.css']
 })
 export class Gift3Component {
+  correct = "Ao infinito e além?"
+
   a1_click(){
     const a1 = document.getElementById("alternative1")
 
@@ -17,11 +19,11 @@ export class Gift3Component {
 
   a2_click(){
     const a2 = document.getElementById("alternative2")
+    const ans = document.getElementById("ans")
 
-    a2?.classList.add("error")
-    setTimeout(function(){
-      a2?.classList.remove("error")
-    }, 900)
+    a2?.classList.add("text-success")
+    this.correct = "ACERTOU"
+    ans?.classList.add("hit")
   }
 
   a3_click(){

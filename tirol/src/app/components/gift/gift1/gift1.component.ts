@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./gift1.component.css']
 })
 export class Gift1Component {
+  correct = "Na banda"
+
   a1_click(){
     const a1 = document.getElementById("alternative1")
 
@@ -26,11 +28,11 @@ export class Gift1Component {
 
   a3_click(){
     const a3 = document.getElementById("alternative3")
+    const ans = document.getElementById("ans")
 
-    a3?.classList.add("error")
-    setTimeout(function(){
-      a3?.classList.remove("error")
-    }, 900)
+    a3?.classList.add("text-success")
+    this.correct = "ACERTOU"
+    ans?.classList.add("hit")
   }
 
   a4_click(){
@@ -42,9 +44,3 @@ export class Gift1Component {
     }, 900)
   }
 }
-
-/* a1 = document.getElementById("alternative1")
-a2 = document.getElementById("alternative2")
-a3 = document.getElementById("alternative3")
-a4 = document.getElementById("alternative4")
-*/

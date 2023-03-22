@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./gift2.component.css']
 })
 export class Gift2Component {
+  correct = dias() + "?"
+
   a1_click(){
     const a1 = document.getElementById("alternative1")
 
@@ -35,10 +37,22 @@ export class Gift2Component {
 
   a4_click(){
     const a4 = document.getElementById("alternative4")
+    const ans = document.getElementById("ans")
 
-    a4?.classList.add("error")
-    setTimeout(function(){
-      a4?.classList.remove("error")
-    }, 900)
+    a4?.classList.add("text-success")
+    this.correct = "ACERTOU"
+    ans?.classList.add("hit")
   }
+}
+
+const dateStart = new Date("2019, 03, 22")
+
+function dias(){
+
+  let dataAtual = new Date()
+  let dataPassada = new Date(dateStart)
+  let dataMilisegundos = Math.abs(dataAtual.getTime() - dataPassada.getTime())
+  let diferenca = Math.ceil(dataMilisegundos / (1000*60*60*24))
+
+  return diferenca
 }
