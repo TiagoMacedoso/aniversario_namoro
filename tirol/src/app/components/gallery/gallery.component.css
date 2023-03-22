@@ -13,6 +13,12 @@
   background-position: center;
 }
 
+.images:hover, .images:focus{
+  transition: 1s;
+  border-radius: 100%;
+  transform: scale(1.05);
+}
+
 @media (max-width: 800px) {
   .roxo{
     border-color: var(--rosa);
