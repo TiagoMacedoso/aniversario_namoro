@@ -45,7 +45,7 @@ export class GalleryComponent {
       index: 2,
       linha: [
         {
-          img: "background-image: url(./../../../assets/formatura1.JPG);",
+          img: "background-image: url(./../../../assets/formatura1.jpg);",
           color: "rosa"
         },
         {
@@ -53,7 +53,7 @@ export class GalleryComponent {
           color: "roxo"
         },
         {
-          img: "background-image: url(./../../../assets/foto5.JPEG);",
+          img: "background-image: url(./../../../assets/foto5.jpeg);",
           color: "rosa"
         }
       ]
@@ -62,7 +62,7 @@ export class GalleryComponent {
       index: 3,
       linha: [
         {
-          img: "background-image: url(./../../../assets/zoe.JPG);",
+          img: "background-image: url(./../../../assets/zoe.jpg);",
           color: "rosa"
         },
         {
@@ -70,7 +70,7 @@ export class GalleryComponent {
           color: "roxo"
         },
         {
-          img: "background-image: url(./../../../assets/foto7.JPEG);",
+          img: "background-image: url(./../../../assets/foto7.jpeg);",
           color: "roxo"
         }
       ]
