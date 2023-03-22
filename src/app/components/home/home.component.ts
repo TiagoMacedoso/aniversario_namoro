@@ -19,7 +19,7 @@ export class HomeComponent {
       counter: false,
       h1: "Cecília, nossa princesinha S2.",
       p:      "Eu sei que está difícil, tantas coisas acontecendo, algumas boas e outras nem tanto, mas você sabe que sempre vou estar ao seu lado.",
-      img: "background-image: url(./../../../assets/cecilia.jpeg)"
+      img: "background-image: url(./../../../assets/cecilia.jpg)"
     },
     {
       counter: false,

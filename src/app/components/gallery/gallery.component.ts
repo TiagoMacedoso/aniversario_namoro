@@ -53,7 +53,7 @@ export class GalleryComponent {
           color: "roxo"
         },
         {
-          img: "background-image: url(./../../../assets/foto5.jpeg);",
+          img: "background-image: url(./../../../assets/foto5.jpg);",
           color: "rosa"
         }
       ]
@@ -70,7 +70,7 @@ export class GalleryComponent {
           color: "roxo"
         },
         {
-          img: "background-image: url(./../../../assets/foto7.jpeg);",
+          img: "background-image: url(./../../../assets/foto7.jpg);",
           color: "roxo"
         }
       ]
