@@ -1,45 +1,32 @@
-<!-- <nav class="d-flex">
-
-  <section>
-    <img src="">
-    <h2>I love you S2</h2>
-  </section>
-
-  <section>
-    <h1>Tirol</h1>
-  </section>
-
-  <section>
-    <ul>
-      <li>Home</li>
-      <li>Galeria</li>
-      <li>Presente</li>
-    </ul>
-  </section>
-
-</nav> -->
-
 <div class="px-3 d-flex flex-column justify-content-center">
 
   <nav class="w-100 row d-flex flex-wrap justify-content-between align-items-center py-1">
 
     <section class="col-5 d-flex align-items-center" routerLink="">
 
-      <div></div>
+      <div class="d-none d-lg-block"></div>
 
-      <h2 class="ps-4 fs-3">I love you S2</h2>
+      <h2 class="ps-4 fs-3 d-none d-lg-block">I love you S2</h2>
+
+      <ul class="nav nav-pills d-flex d-lg-none">
+        <li class="nav-item" routerLink=""><a class="nav-link fs-3 text-verde">Home</a></li>
+      </ul>
 
     </section>
 
     <section class="col-2 d-flex justify-content-center align-items-center" routerLink="">
-      <h1 class="fs-1">Tirol</h1>
+      <h1 class="fs-1 m-0">Tirol</h1>
     </section>
 
     <section class="col-5 d-flex justify-content-end">
-      <ul class="nav nav-pills">
-        <li class="nav-item" routerLink=""><a class="nav-link fs-3">Home</a></li>
-        <li class="nav-item" routerLink="gallery"><a class="nav-link fs-3">Fotos</a></li>
-        <li class="nav-item" routerLink="gift"><a class="nav-link fs-3">Surpresa</a></li>
+      <ul class="nav nav-pills d-none d-lg-flex">
+        <li class="nav-item" routerLink=""><a class="nav-link fs-3 text-verde">Home</a></li>
+        <li class="nav-item" routerLink="gallery"><a class="nav-link fs-3 text-verde">Fotos</a></li>
+        <li class="nav-item" routerLink="gift"><a class="nav-link fs-3 text-verde">Surpresa</a></li>
+      </ul>
+
+      <ul class="nav nav-pills d-flex d-lg-none">
+        <li class="nav-item" routerLink="gallery"><a class="nav-link fs-3 text-verde">Fotos</a></li>
       </ul>
     </section>
 

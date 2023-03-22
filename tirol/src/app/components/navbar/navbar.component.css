@@ -23,8 +23,12 @@ div nav section:nth-child(2) h1{
   font-weight: bold;
 }
 
-div nav section:nth-child(3) ul li a{
+div nav section:nth-child(3), section:nth-child(1) ul li a{
   text-decoration: none;
-  color: var(--verde);
   font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 800) {
+
 }
