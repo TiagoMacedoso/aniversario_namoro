@@ -6,7 +6,8 @@ https://tirol.tiagomc.com.br
 
 # Tecnologias utilizadas:
 - Angular
-- AWS Amplify
+- Bootstrap
 - HTML
 - CSS
 - JavaScript
+- AWS Amplify
